@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import Comments from './components/comments';
+
 class App extends Component {
   render() {
     return (
@@ -12,7 +13,8 @@ class App extends Component {
 }
 
 App.defaultProps = {
-  comments: ['kanye is probably an alien', 'tupac is still alive']
+  //comments: ['kanye is probably an alien', 'tupac is still alive']
+  comments: ['Pumpkin', 'Honey Bunny']
 }
 
 
